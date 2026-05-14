@@ -1,0 +1,27 @@
+{
+  "name": "interview-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "chrono-node": "^2.9.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "ics": "^3.8.1",
+    "mysql2": "^3.19.1",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.2",
+    "open": "^11.0.0",
+    "resend": "^6.9.4"
+  }
+}
